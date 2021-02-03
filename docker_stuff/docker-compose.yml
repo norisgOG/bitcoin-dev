@@ -1,0 +1,50 @@
+version: "3.3"
+services:
+  Mining_Node:
+    container_name: regtest_mining
+    build:
+        context: /home/ubuntu/bitcoin-dev/regtest/bitcoind_mining_node
+    image: regtest/bitcoind_mining:latest
+    # command:
+    networks:
+        regtest:
+          ipv4_address: 10.7.0.2
+    expose:
+      - "18443"
+      - "18444"
+    restart: always
+
+  Node1:
+    container_name: node_1
+    build:
+        context: /home/ubuntu/bitcoin-dev/regtest/bitcoind_additional_nodes
+    image: regtest/bitcoind_additional_nodes:latest
+    # command:
+    networks:
+       regtest:
+           ipv4_address: 10.7.0.3
+    expose:
+      - "18443"
+      - "18444"
+    restart: always
+
+
+  Node2:
+    container_name: node_2
+    build:
+        context: /home/ubuntu/bitcoin-dev/regtest/bitcoind_additional_nodes
+    image: regtest/bitcoind_additional_nodes:latest
+    # command:
+    networks:
+        regtest:
+            ipv4_address: 10.7.0.4
+    expose:
+      - "18443"
+      - "18444"
+    restart: always
+networks:
+  regtest:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.7.0.0/16
