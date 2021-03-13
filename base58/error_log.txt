@@ -1,0 +1,142 @@
+[ 20%] Building CXX object CMakeFiles/base58.dir/main.cpp.o
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/main.cpp:1:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream:37:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios:214:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd:95:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wchar.h:118:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:91:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/time.h:11:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/chrono:827:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:60:9: error: no member named 'tm' in the global namespace
+using ::tm;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:64:9: error: no member named 'clock' in the global namespace
+using ::clock;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:65:9: error: no member named 'difftime' in the global namespace
+using ::difftime;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:66:9: error: no member named 'mktime' in the global namespace; did you mean 'mktemp'?
+using ::mktime;
+      ~~^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/unistd.h:675:7: note: 'mktemp' declared here
+char    *mktemp(char *);
+         ^
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/main.cpp:1:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream:37:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios:214:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd:95:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wchar.h:118:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:91:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/time.h:11:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/chrono:827:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:67:9: error: no member named 'time' in the global namespace
+using ::time;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:69:9: error: no member named 'asctime' in the global namespace; did you mean 'adjtime'?
+using ::asctime;
+      ~~^
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/time.h:190:9: note: 'adjtime' declared here
+int     adjtime(const struct timeval *, struct timeval *);
+        ^
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/main.cpp:1:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream:37:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios:214:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd:95:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wchar.h:118:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:91:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/time.h:11:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/chrono:827:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:70:9: error: no member named 'ctime' in the global namespace
+using ::ctime;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:71:9: error: no member named 'gmtime' in the global namespace
+using ::gmtime;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:72:9: error: no member named 'localtime' in the global namespace
+using ::localtime;
+      ~~^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ctime:74:9: error: no member named 'strftime' in the global namespace
+using ::strftime;
+      ~~^
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/main.cpp:1:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream:37:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios:214:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd:95:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wchar.h:118:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:91:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/time.h:13:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string:504:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string_view:175:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__string:57:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:641:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstring:60:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/string.h:11:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/array:109:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/utility:206:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__debug:62:25: error: no type named 'string' in namespace 'std'
+  _LIBCPP_FUNC_VIS std::string what() const;
+                   ~~~~~^
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/main.cpp:1:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream:37:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios:214:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd:95:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wchar.h:118:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:91:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/time.h:13:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string:504:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string_view:175:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__string:57:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:641:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstring:60:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/string.h:11:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/array:109:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/utility:973:10: error: no member named 'memcpy' in namespace 'std'
+    std::memcpy(&__r, __p, sizeof(__r));
+    ~~~~~^
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/main.cpp:1:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iostream:37:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ios:214:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iosfwd:95:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/wchar.h:118:
+In file included from /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/wchar.h:91:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/time.h:13:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string:504:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/string_view:175:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__string:57:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/algorithm:641:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/cstring:60:
+In file included from /Users//workspace_freetime/bitcoin_docker/bitcoin-development/base58/util/string.h:11:
+In file included from /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/array:110:
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:990:27: error: no template named 'char_traits'
+          class _Traits = char_traits<_CharT>, class _Distance = ptrdiff_t>
+                          ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:990:17: error: template parameter missing a default argument
+          class _Traits = char_traits<_CharT>, class _Distance = ptrdiff_t>
+                ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:989:37: note: previous default template argument defined here
+template <class _Tp, class _CharT = char,
+                                    ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:997:13: error: no template named 'basic_istream'
+    typedef basic_istream<_CharT,_Traits> istream_type;
+            ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:1051:59: error: no template named 'char_traits'
+template <class _Tp, class _CharT = char, class _Traits = char_traits<_CharT> >
+                                                          ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:1051:49: error: template parameter missing a default argument
+template <class _Tp, class _CharT = char, class _Traits = char_traits<_CharT> >
+                                                ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:1051:37: note: previous default template argument defined here
+template <class _Tp, class _CharT = char, class _Traits = char_traits<_CharT> >
+                                    ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:1058:13: error: no template named 'basic_ostream'
+    typedef basic_ostream<_CharT,_Traits> ostream_type;
+            ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/iterator:1090:13: error: no template named 'basic_streambuf'
+    typedef basic_streambuf<_CharT,_Traits> streambuf_type;
+            ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [CMakeFiles/base58.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/base58.dir/all] Error 2
+make: *** [all] Error 2
